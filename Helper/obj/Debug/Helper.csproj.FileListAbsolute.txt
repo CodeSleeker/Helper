@@ -1,0 +1,6 @@
+D:\halebery\projects\Helper\Helper\bin\Debug\Helper.dll
+D:\halebery\projects\Helper\Helper\bin\Debug\Helper.pdb
+D:\halebery\projects\Helper\Helper\obj\Debug\Helper.csprojAssemblyReference.cache
+D:\halebery\projects\Helper\Helper\obj\Debug\Helper.csproj.CoreCompileInputs.cache
+D:\halebery\projects\Helper\Helper\obj\Debug\Helper.dll
+D:\halebery\projects\Helper\Helper\obj\Debug\Helper.pdb
