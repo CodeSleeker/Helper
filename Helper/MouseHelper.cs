@@ -65,14 +65,15 @@ namespace Helper
             }
             return CallNextHookEx(hookId, nCode, wParam, lParam);
         }
-        public void MouseHook(int left, int top)
+        public IntPtr MouseHook(int left, int top)
         {
             SetCursorPos(left, top);
             hookId = Hook(process);
+            return hookId;
         }
-        public void UnHook()
+        public void UnHook(IntPtr id)
         {
-            UnhookWindowsHookEx(hookId);
+            UnhookWindowsHookEx(id);
         }
     }
 }
