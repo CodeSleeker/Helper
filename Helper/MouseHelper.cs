@@ -97,7 +97,6 @@ namespace Helper
         {
             SetCursorPos(left, top);
             hookId = Hook(process);
-            return hookId;
         }
         public static void Start(bool isVisible = true, int left=0, int top=0)
         {
@@ -105,9 +104,9 @@ namespace Helper
             if (!IsVisible) SetCursorPos(left, top);
             Hook(process);
         }
-        public void UnHook(IntPtr id)
+        public void UnHook()
         {
-            UnhookWindowsHookEx(id);
+            UnhookWindowsHookEx(hookId);
         }
     }
 }
